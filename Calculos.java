@@ -1,15 +1,15 @@
 
-package ejercicio_14;
+package ejercicio_17;
 
 public class Calculos {
-    public static double calcular_cuadrado(double numero) {
-        double cuadrado = numero * numero;
-        return cuadrado;
+    public static double calcular_area(double radio) {
+        double area = Math.PI * Math.pow(radio,2);
+        return area;
     }
 
-    public static double calcular_cubo(double numero) {
-        double cubo = numero * numero * numero;
-        return cubo;
+    public static double calcular_circunferencia(double radio) {
+        double longitud = 2 * Math.PI * radio;
+        return longitud;
     }
     
 }
