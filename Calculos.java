@@ -1,22 +1,15 @@
 
-package ejercicio_12;
-public class Calculos {
-    public static double calcular_salario_bruto(
-    double horaslaboradas, double valorhora){
-        double salario_bruto= horaslaboradas*valorhora;
-        return salario_bruto;
-    }
-     public static double calcular_retefuente(
-    double horaslaboradas, double valorhora, double porcentajeretencion){
-         double retefuente =(horaslaboradas*valorhora)*porcentajeretencion;
-         return retefuente;
-     }
-     
-      public static double calcular_salario_neto(
-    double salario_bruto, double retefuente){
-          double salario_neto = salario_bruto-retefuente;
-          return salario_neto;
-      }
-     
-}
+package ejercicio_14;
 
+public class Calculos {
+    public static double calcular_cuadrado(double numero) {
+        double cuadrado = numero * numero;
+        return cuadrado;
+    }
+
+    public static double calcular_cubo(double numero) {
+        double cubo = numero * numero * numero;
+        return cubo;
+    }
+    
+}
